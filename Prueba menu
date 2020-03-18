@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <string.h>
+#define N 40
+int main(){
+	
+	int eleccion,i,precio=0 ,precio1,precio2 ,precio3,precio4,precio5, precio6,decision ;
+	char total[500],vector1[N],vector2[N],vector3[N],vector4[N],vector5[N],vector6[N],vector7[N];
+
+	printf("::::::Bienvenido a Devil Engine::::::\n");
+	printf("Vamos a crear la moto de tus sue�os ;)\n");
+		printf("Que marca te gusta?, Yamaha, Honda o Kawasaki, teclee respectivamente 1,2,3 para empezar tu configuracion\n");
+		
+		scanf("%d",&eleccion);
+		
+	switch(eleccion){
+		case 1:
+				
+			 precio1=2899 ;precio2=999 ;precio3=1299 ;precio4=1799 ;precio5=3999; precio6=3399 ;
+				
+				
+				printf("::::Has elegido Yamaha::::\n");
+			    	printf("Los accesorios disponibles para tu moto son los siguientes....\n");
+					 printf("Selecciona del 1 al 6 respectivamente\n");
+				
+					for(i=0;i<=5;i++){
+					
+						printf("Tubo de escape de titanio = 2.899 euros\n");
+							printf("Pegatinas de Lorenzo = 999 euros\n");
+							 printf("Suspension de competicion = 1.299 euros\n");
+							  printf("Cilindros de competicion = 1.799 euros\n");
+							   printf("Chasis mejorada = 3.499 euros\n");
+							    printf("Llantas cromadas = 3399 euros\n");
+							     printf("SALIR ---- 9\n");
+							     scanf("%d",&decision);
+			
+				if(decision == 1){
+				char	vector1[N]="Tubo de escape de titanio";
+						precio+=precio1;
+					strcat(total,vector1);
+					strcat(total,",");	
+			}
+					
+					
+				if(decision == 2){
+					char	vector2[N]="Pegatinas de lorenzo";
+						precio+=precio2;
+					strcat(total,vector2);	
+					strcat(total,",");
+			}	
+		  
+		  	
+			if(decision == 9){
+					 break;
+					 
+					
+			}
+						
+		}
+			
+			
+			 printf("%s  total a pagar = %d",total,precio);
+	
+		break;
+			case 2:
+			
+			 precio1=2899 ;precio2=999 ;precio3=1299 ;precio4=1799 ;precio5=3999; precio6=3399 ;
+			
+				printf("::::Has elegido Honda::::\n");
+			    	printf("Los accesorios disponibles para tu moto son los siguientes....\n");
+					  printf("Selecciona del 1 al 5 respectivamente\n");
+						printf("Tubo de escape de titanio = 1.699 euros\n");
+							printf("Freno ceramico = 999 euros\n");
+						      printf("Horquilla delantera electrica = 1.299 euros\n");
+						       	printf("Chasis de carbono = 3.499 euros\n");
+						         	printf("Guardabarros bitono = 399 euros\n");
+						
+						
+							
+			break;				
+			
+			case 3:
+			
+			 precio1=2899 ;precio2=999 ;precio3=1299 ;precio4=1799 ;precio5=3999; precio6=3399 ;
+				
+				printf("::::Has elegido Kawasaki::::\n");
+				 printf("Los accesorios disponibles para tu moto son los siguientes....\n");
+					printf("Selecciona del 1 al 5 respectivamente\n");
+						printf("Tubo de escape de titanio = 1.299 euros\n");
+							printf("Cadena reforzada = 799 euros\n");
+							 printf("Valvulas deportivas = 899 euros\n");
+						      printf("Opcion de apertura de valvulas = 1.999 euros\n");
+						     	printf("Configuracion propia de pegatinas = 499 euros\n");
+			break;			        
+						  						
+							
+	}
+	
+}
