@@ -98,29 +98,29 @@ int main(){
 			
 		if(config == 1 && marca[0].escape != 0){
 			total=total+marca[0].precio1;
-			fprintf(pconfiguracion,"Tubos de escape de titanio = %d€ \n",marca[0].precio1);
+			fprintf(pconfiguracion,"Tubos de escape de titanio = %dâ‚¬ \n",marca[0].precio1);
 			marca[0].escape=0;
 		    }
 		else if(config == 2 && marca[0].suspension != 0){
 			
 				total=total+marca[0].precio2;
-				fprintf(pconfiguracion,"Suspension de competicion = %d€ \n",marca[0].precio2);
+				fprintf(pconfiguracion,"Suspension de competicion = %dâ‚¬ \n",marca[0].precio2);
 				marca[0].suspension=0;
 		        }
 		else if(config == 3 && marca[0].cilindros != 0){
 			
 				total=total+marca[0].precio3;
-				fprintf(pconfiguracion,"Cilindros de competicion = %d€ \n",marca[0].precio3);
+				fprintf(pconfiguracion,"Cilindros de competicion = %dâ‚¬ \n",marca[0].precio3);
 				marca[0].cilindros=0;
 	            }
 		else if(config == 4 && marca[0].llantas != 0){
 			
 				total=total+marca[0].precio4;
-				fprintf(pconfiguracion,"Llantas cromadas = %d€ \n",marca[0].precio4);
+				fprintf(pconfiguracion,"Llantas cromadas = %dâ‚¬ \n",marca[0].precio4);
 				marca[0].llantas=0;
 		        }
 		else if(config == 4 && marca[0].llantas == 0 || config == 3 && marca[0].cilindros == 0 || config == 2 && marca[0].suspension == 0 || config == 1 && marca[0].escape == 0){
-				printf("Has elegido esta configuracion antes... ¡Elige otra! \n");		
+				printf("Has elegido esta configuracion antes... Â¡Elige otra! \n");		
 			    }
 			
 	fflush(stdin);
@@ -133,9 +133,9 @@ int main(){
 		
 	printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
 	printf("Es el resguardo de tu compra ralizada con exito \n");
-	printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
+	printf("Muchas gracias por confiar en nosotros, Â¡Hasta la proxima! \n");
 			
-	fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
+	fprintf(pconfiguracion,"Total a pagar = %.2fâ‚¬",total);
 			
 	break;
 					 
@@ -157,30 +157,30 @@ int main(){
 		if(config == 1 && marca[1].escape != 0){
 			
 			total=total+marca[1].precio1;
-			fprintf(pconfiguracion,"Tubos de escape de titanio = %d€ \n",marca[1].precio1);
+			fprintf(pconfiguracion,"Tubos de escape de titanio = %dâ‚¬ \n",marca[1].precio1);
 			marca[1].escape=0;
 				
 		   }
 		else if(config == 2 && marca[1].frenosceram != 0){
 			
 				total=total+marca[1].precio5;
-				fprintf(pconfiguracion,"Frenos ceramicos = %d€ \n",marca[1].precio5);
+				fprintf(pconfiguracion,"Frenos ceramicos = %dâ‚¬ \n",marca[1].precio5);
 				marca[1].frenosceram=0;	
 		        }
 		else if(config == 3 && marca[1].horquilla != 0){
 			
 				total=total+marca[1].precio6;
-				fprintf(pconfiguracion,"Horquilla delantera electrica = %d€ \n",marca[1].precio6);
+				fprintf(pconfiguracion,"Horquilla delantera electrica = %dâ‚¬ \n",marca[1].precio6);
 				marca[1].horquilla=0;
 		        }
 		else if(config == 4 && marca[1].chasiscarb != 0){
 			
 				total=total+marca[1].precio7;
-				fprintf(pconfiguracion,"Chasis de carbono = %d€ \n",marca[1].precio7);
+				fprintf(pconfiguracion,"Chasis de carbono = %dâ‚¬ \n",marca[1].precio7);
 				marca[1].chasiscarb=0;	
 		        }
 		else if(config == 4 && marca[1].chasiscarb == 0 || config == 3 && marca[1].horquilla == 0 || config == 2 && marca[1].frenosceram == 0 || config == 1 && marca[1].escape == 0){
-					printf("Has elegido esta configuracion antes... ¡Elige otra! \n");
+					printf("Has elegido esta configuracion antes... Â¡Elige otra! \n");
 					
 		        }
 			
@@ -194,9 +194,9 @@ int main(){
 			
 			printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
 			printf("Es el resguardo de tu compra ralizada con exito \n");
-			printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
+			printf("Muchas gracias por confiar en nosotros, Â¡Hasta la proxima! \n");
 			
-			fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
+			fprintf(pconfiguracion,"Total a pagar = %.2fâ‚¬",total);
 			
 			break;
 			
@@ -219,28 +219,28 @@ int main(){
 			if(config == 1 && marca[2].escape != 0){
 			
 				total=total+marca[2].precio1;
-				fprintf(pconfiguracion,"Tubos de escape de titanio = %d€ \n",marca[2].precio1);
+				fprintf(pconfiguracion,"Tubos de escape de titanio = %dâ‚¬ \n",marca[2].precio1);
 				marca[2].escape=0;
 			    }
 			else if(config == 2 && marca[2].cadena != 0){
 			
 				    total=total+marca[2].precio8;
-				    fprintf(pconfiguracion,"Cadena reforzada = %d€ \n",marca[2].precio8);
+				    fprintf(pconfiguracion,"Cadena reforzada = %dâ‚¬ \n",marca[2].precio8);
 				    marca[2].cadena=0;
 			        }
 			else if(config == 3 && marca[2].valvulas != 0){
 				    total=total+marca[2].precio9;
-				    fprintf(pconfiguracion,"Valvulas deportivas = %d€ \n",marca[2].precio9);
+				    fprintf(pconfiguracion,"Valvulas deportivas = %dâ‚¬ \n",marca[2].precio9);
 				    marca[2].valvulas=0;
 	                }
 	        else if(config == 4 && marca[2].aperturavalv != 0){
 			
 				   total=total+marca[2].precio10;
-				   fprintf(pconfiguracion,"Opcion de apertura de valvulas = %d€ \n",marca[2].precio10);
+				   fprintf(pconfiguracion,"Opcion de apertura de valvulas = %dâ‚¬ \n",marca[2].precio10);
 				   marca[2].aperturavalv=0;
 			       }
 		    else if(config == 4 && marca[2].aperturavalv == 0 || config == 3 && marca[2].valvulas == 0 || config == 2 && marca[2].cadena == 0 || config == 1 && marca[2].escape == 0){
-					printf("Has elegido esta configuracion antes... ¡Elige otra! \n");
+					printf("Has elegido esta configuracion antes... Â¡Elige otra! \n");
 				    }
 			
 		   fflush(stdin);
@@ -252,9 +252,9 @@ int main(){
 			
 		printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
 		printf("Es el resguardo de tu compra ralizada con exito \n");
-		printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
+		printf("Muchas gracias por confiar en nosotros, Â¡Hasta la proxima! \n");
 				
-		fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
+		fprintf(pconfiguracion,"Total a pagar = %.2fâ‚¬",total);
 			
 		break;			
 		}
