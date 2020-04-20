@@ -9,4 +9,7 @@ Saul Sanz Onrubia (Virus-exe-sys)
 
 ## Objetivos del trabajo
 
-Lista de los objetivos que se persiguen con el trabajo propuesto.
+1. Ver nuestro catalogo
+2. Seleeccionar un producto de compra
+3. Poder elegir complementos para este
+4. Comprar el producto
