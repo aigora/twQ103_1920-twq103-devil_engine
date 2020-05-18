@@ -132,7 +132,7 @@ int main(){
     }while(eleccion == 's' || eleccion == 'S');
 		
 	printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
-	printf("Es el resguardo de tu compra ralizada con exito \n");
+	printf("Es el resguardo de tu compra realizada con exito \n");
 	printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 			
 	fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
@@ -193,7 +193,7 @@ int main(){
 			}while(eleccion == 's' || eleccion == 'S');
 			
 			printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
-			printf("Es el resguardo de tu compra ralizada con exito \n");
+			printf("Es el resguardo de tu compra realizada con exito \n");
 			printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 			
 			fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
@@ -251,7 +251,7 @@ int main(){
 		}while(eleccion == 's' || eleccion == 'S');
 			
 		printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
-		printf("Es el resguardo de tu compra ralizada con exito \n");
+		printf("Es el resguardo de tu compra realizada con exito \n");
 		printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 				
 		fprintf(pconfiguracion,"Total a pagar = %.2f€",total);
