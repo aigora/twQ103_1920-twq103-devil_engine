@@ -64,15 +64,15 @@ int main(){
 	for(i=0;i<3;i++){	
 		printf("--------> %s \n \n",marca[i].nombre);
 		printf("1. Tubos de escape de titanio -----> %d existencias = %d euros \n",marca[i].escape, marca[i].precio1);
-		printf("2. Suspension de competicion -----> %d exsistencias = %d euros \n",marca[i].suspension,marca[i].precio2);
-		printf("3. Cilindros de competicion -----> %d exsistencias = %d euros \n",marca[i].cilindros,marca[i].precio3);
-		printf("4. Llantas cromadas -----> %d exsistencias = %d euros \n",marca[i].llantas,marca[i].precio4);
-		printf("5. Frenos ceramicos -----> %d exsistencias = %d  euros \n",marca[i].frenosceram,marca[i].precio5);
-		printf("6. Horquilla delantera electrica -----> %d exsistencias = %d euros \n",marca[i].horquilla,marca[i].precio6);
-		printf("7. Chasis de carbono -----> %d exsistencias = %d  euros \n",marca[i].chasiscarb,marca[i].precio7);
-		printf("8. Cadena reforzada -----> %d exsistencias = %d  euros \n",marca[i].cadena,marca[i].precio8);
-		printf("9. Valvulas deportivas -----> %d exsistencias = %d  euros \n",marca[i].valvulas,marca[i].precio9);
-	    printf("10. Opcion de apertura de valvulas -----> %d exsistencias = %d euros \n \n",marca[i].aperturavalv,marca[i].precio10);
+		printf("2. Suspension de competicion -----> %d existencias = %d euros \n",marca[i].suspension,marca[i].precio2);
+		printf("3. Cilindros de competicion -----> %d existencias = %d euros \n",marca[i].cilindros,marca[i].precio3);
+		printf("4. Llantas cromadas -----> %d existencias = %d euros \n",marca[i].llantas,marca[i].precio4);
+		printf("5. Frenos ceramicos -----> %d existencias = %d  euros \n",marca[i].frenosceram,marca[i].precio5);
+		printf("6. Horquilla delantera electrica -----> %d existencias = %d euros \n",marca[i].horquilla,marca[i].precio6);
+		printf("7. Chasis de carbono -----> %d existencias = %d  euros \n",marca[i].chasiscarb,marca[i].precio7);
+		printf("8. Cadena reforzada -----> %d existencias = %d  euros \n",marca[i].cadena,marca[i].precio8);
+		printf("9. Valvulas deportivas -----> %d existencias = %d  euros \n",marca[i].valvulas,marca[i].precio9);
+	    printf("10. Opcion de apertura de valvulas -----> %d existencias = %d euros \n \n",marca[i].aperturavalv,marca[i].precio10);
 		}
 		
 	printf("Elige una opcion para configurar tu moto Yamaha---> 1  ,  Honda---> 2  ,  Kawasaki---> 3 \n");
@@ -131,7 +131,7 @@ int main(){
 				
     }while(eleccion == 's' || eleccion == 'S');
 		
-	printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
+	printf("Tu configuracion se ha guardado en un documento de texto llamado (Configuracion escogida) \n");
 	printf("Es el resguardo de tu compra realizada con exito \n");
 	printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 			
@@ -192,7 +192,7 @@ int main(){
 				
 			}while(eleccion == 's' || eleccion == 'S');
 			
-			printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
+			printf("Tu configuracion se ha guardado en un documento de texto llamado (Configuracion escogida) \n");
 			printf("Es el resguardo de tu compra realizada con exito \n");
 			printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 			
@@ -250,7 +250,7 @@ int main(){
 			scanf("%c",&eleccion);		
 		}while(eleccion == 's' || eleccion == 'S');
 			
-		printf("Tu configuracion se ha guardado en un documento de tecto llamado (Configuracion escogida) \n");
+		printf("Tu configuracion se ha guardado en un documento de texto llamado (Configuracion escogida) \n");
 		printf("Es el resguardo de tu compra realizada con exito \n");
 		printf("Muchas gracias por confiar en nosotros, ¡Hasta la proxima! \n");
 				
