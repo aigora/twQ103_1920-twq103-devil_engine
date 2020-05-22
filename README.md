@@ -10,6 +10,6 @@ Saul Sanz Onrubia (Virus-exe-sys)
 ## Objetivos del trabajo
 
 1. Ver nuestro catalogo
-2. Seleeccionar un producto de compra
+2. Seleccionar un producto de compra
 3. Poder elegir complementos para este
 4. Comprar el producto
